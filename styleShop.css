@@ -23,7 +23,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    
+    margin-bottom: 100px;
+   
 }
 .ligne1{
     display: flex;
@@ -52,8 +53,46 @@
 
 }
 .Search{
-    background-color: rgba(32, 104, 32, 0.877);border: 1px gray; height: 30px; width: 30%;
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
     
+    
+}
+.part2{
+    margin-right: 100px;
+}
+.search-icon:hover{
+    background-color: rgb(1, 24, 1);
+}
+.input{
+    margin-left: 200px;
+}
+.categorie{
+    font-size: xx-large;
+    color: rgb(85, 199, 85);
+}
+.lien1{
+    text-decoration: none;
+    color: rgb(85, 199, 85);
+    font-size: 20px;
+}
+.lien2{
+    text-decoration: none;
+    color: rgb(85, 199, 85);   
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    border-top: 1px;
+}
+.fa-regular fa-envelope{
+    background-color: white;
+    border: 2px;
+    border-color: green;
 }
